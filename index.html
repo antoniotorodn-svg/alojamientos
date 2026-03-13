@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartamento - Centro de Móstoles · Airbnb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <div class="logo">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" width="30" height="32" fill="#FF385C">
+                    <path d="M16 1c2.008 0 3.463.963 4.751 3.269l.533 1.025c1.954 3.83 6.114 12.54 7.1 14.836l.145.353c.667 1.591.91 2.472.96 3.396l.01.415.001.228c0 4.062-2.877 6.478-6.357 6.478-2.224 0-4.556-1.258-6.709-3.386l-.257-.26-.172-.179h-.002l-.176.185c-2.044 2.1-4.267 3.42-6.414 3.615l-.28.02-.267.005C5.377 31 2.5 28.584 2.5 24.522l.005-.469c.026-.928.23-1.768.83-3.244l.216-.524c.966-2.298 5.127-11.011 7.086-14.836l.533-1.025C12.537 1.963 13.992 1 16 1zm0 2c-1.239 0-2.053.539-2.987 2.21l-.523 1.008c-1.926 3.776-6.06 12.43-7.031 14.692l-.345.836c-.427 1.071-.573 1.655-.605 2.24l-.009.33v.206C4.5 27.395 6.411 29 8.857 29c1.773 0 3.87-1.236 5.831-3.354l.377-.416.29-.33h1.29l.294.335c1.86 2.07 3.86 3.37 5.545 3.727l.243.038.214.005c2.446 0 4.359-1.605 4.359-4.483v-.17l-.007-.302c-.029-.593-.17-1.178-.596-2.25l-.345-.836c-.992-2.313-5.173-11.06-7.058-14.692l-.523-1.008C17.053 3.539 16.239 3 15.999 3z"/>
+                </svg>
+                <span>airbnb</span>
+            </div>
+            <div class="nav-actions">
+                <a href="#" class="nav-link">Pon tu espacio en Airbnb</a>
+                <button class="globe-btn">
+                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor">
+                        <path d="M8 .25a7.77 7.77 0 0 1 7.75 7.78 7.75 7.75 0 0 1-7.52 7.72h-.25A7.75 7.75 0 0 1 .25 8.24v-.25A7.75 7.75 0 0 1 8 .25zm1.95 8.5h-3.9c.15 2.9 1.17 5.34 1.88 5.5H8c.68 0 1.72-2.37 1.93-5.23zm4.26 0h-2.76c-.09 1.96-.53 3.78-1.18 5.08A6.26 6.26 0 0 0 14.17 9zm-9.67 0H1.8a6.26 6.26 0 0 0 3.94 5.08 12.59 12.59 0 0 1-1.16-4.7l-.01-.38zm1.2-6.58-.12.05A6.26 6.26 0 0 0 1.83 7.25h2.72c.09-1.83.48-3.54 1.06-4.81zm2.25-.42c-.7 0-1.78 2.51-1.95 5.25h3.9c-.17-2.74-1.25-5.25-1.95-5.25zm2.09.42.06.13c.57 1.25.97 2.97 1.06 4.78h2.72a6.28 6.28 0 0 0-3.84-4.9z"/>
+                    </svg>
+                </button>
+                <button class="user-menu">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor">
+                        <path d="M4 7h24v2H4zm0 8h24v2H4zm0 8h24v2H4z"/>
+                    </svg>
+                    <div class="avatar-placeholder">
+                        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor">
+                            <path d="M16 .7C7.56.7.7 7.56.7 16S7.56 31.3 16 31.3 31.3 24.44 31.3 16 24.44.7 16 .7zm0 28c-4.02 0-7.6-1.88-9.93-4.81a12.43 12.43 0 0 1 6.45-4.4A6.5 6.5 0 0 1 9.5 14a6.5 6.5 0 1 1 13 0 6.51 6.51 0 0 1-3.02 5.5 12.42 12.42 0 0 1 6.45 4.4A12.67 12.67 0 0 1 16 28.7z"/>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="listing-page">
+        <!-- Title Section -->
+        <section class="listing-header">
+            <h1>Apartamento - Centro de Móstoles</h1>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section class="photo-gallery">
+            <div class="gallery-grid">
+                <div class="gallery-main">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1497125222077683001/original/d3cbbc21-e761-48f7-a78f-007dc4f59066.jpeg" alt="Salón del apartamento" loading="eager">
+                </div>
+                <div class="gallery-secondary">
+                    <div class="gallery-item">
+                        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1497125222077683001/original/0fd5ac8b-efd2-4f16-a3c3-62f7e56d329a.jpeg" alt="Dormitorio principal" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1497125222077683001/original/fb3f680e-7f38-4103-b039-59cf94acd7f6.jpeg" alt="Segundo dormitorio" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1497125222077683001/original/dc6094cd-a45e-4b5f-9b36-bbc12c0a9342.jpeg" alt="Cocina equipada" loading="lazy">
+                    </div>
+                    <div class="gallery-item gallery-last">
+                        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1497125222077683001/original/6ca739f8-44e4-4ccc-b31c-ab89b1dfa110.jpeg" alt="Baño" loading="lazy">
+                        <button class="show-all-photos">
+                            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor">
+                                <path d="M3 11.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm-10-5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm-10-5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3z"/>
+                            </svg>
+                            Mostrar todas las fotos
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Grid -->
+        <section class="listing-content">
+            <div class="content-main">
+                <!-- Host & Quick Info -->
+                <div class="listing-overview">
+                    <div class="overview-text">
+                        <h2>Apartamento entero en Móstoles, España</h2>
+                        <p class="overview-details">6 viajeros · 2 dormitorios · 3 camas · 2 baños</p>
+                    </div>
+                    <div class="host-avatar">
+                        <div class="avatar-circle">M</div>
+                        <span class="superhost-badge" title="Superanfitrión">
+                            <svg viewBox="0 0 14 24" width="14" height="24" fill="#FF385C">
+                                <path d="M7 0l2.5 5h5L10 9.5l1.5 5.5L7 12 2.5 15 4 9.5 0 5h5z"/>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Highlights -->
+                <div class="highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M16 17a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-2a5 5 0 1 0 0-10 5 5 0 0 0 0 10zM3.59 29a1 1 0 0 1-.97-1.23 13.44 13.44 0 0 1 26.76 0 1 1 0 0 1-.97 1.23H3.59z"/>
+                            </svg>
+                        </div>
+                        <div class="highlight-text">
+                            <strong>Manuel es Superanfitrión</strong>
+                            <span>Los Superanfitriones son anfitriones con experiencia y evaluaciones excelentes.</span>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M16.84 27.16v-3.4l-.26.09c-.98.32-2.03.51-3.11.55h-.7A11.34 11.34 0 0 1 1.72 13.36v-.59A11.34 11.34 0 0 1 12.77 1.72h.59c6.08.14 11 5.3 11 11.49a11.47 11.47 0 0 1-1.24 5.14l-.06.1 6.42 6.42a2.03 2.03 0 0 1-2.02 3.45l-.14-.07-5.22-2.59-.12-.06-5.14 1.56zm-4.07-23.44a9.33 9.33 0 0 0-9.05 9.32v.5a9.33 9.33 0 0 0 9.55 9.13 9.36 9.36 0 0 0 5.07-1.78l.25-.22 1.22-1.16.22 1.66.86 2.04 4.38 2.18a.04.04 0 0 0 .05-.02l.01-.03v-.05l-6.5-6.5.61-1.06a9.48 9.48 0 0 0 1.15-4.49c0-5.37-4.16-9.72-9.41-9.83h-.41z"/>
+                            </svg>
+                        </div>
+                        <div class="highlight-text">
+                            <strong>Tasa de respuesta del 100%</strong>
+                            <span>Manuel responde en menos de una hora.</span>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M24 2a4 4 0 0 1 4 4v20a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4h16zm0 2H8a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm-5 14a1 1 0 0 1 .117 1.993L19 20h-6a1 1 0 0 1-.117-1.993L13 18h6zm2-4a1 1 0 0 1 .117 1.993L21 16H11a1 1 0 0 1-.117-1.993L11 14h10zm0-4a1 1 0 0 1 .117 1.993L21 12H11a1 1 0 0 1-.117-1.993L11 10h10z"/>
+                            </svg>
+                        </div>
+                        <div class="highlight-text">
+                            <strong>Recién reformado en 2025</strong>
+                            <span>Apartamento amplio y totalmente renovado.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Description -->
+                <div class="description">
+                    <p>Apartamento amplio y recién reformado en 2025. Dos habitaciones con cama de matrimonio, sofá-cama en el salón, dos baños completos con ducha. Cocina totalmente equipada, lavadora. Calefacción, aire acondicionado y ventiladores de techo. Terraza de 40 m². Ubicado en pleno centro de Móstoles.</p>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Amenities -->
+                <div class="amenities-section">
+                    <h2>Lo que este lugar ofrece</h2>
+                    <div class="amenities-grid">
+                        <div class="amenity">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M26 1a5 5 0 0 1 5 5c0 6.39-1.6 13.19-4.55 17.7C23.94 27.81 21.16 30 18 30H6.5a4.5 4.5 0 0 1-.44-8.97 43.13 43.13 0 0 1-.55-6.98L5.5 13a9.5 9.5 0 0 1 15.56-7.3A4.97 4.97 0 0 1 26 1zm-3 10.5a7.5 7.5 0 0 0-14.96.5l-.01.86c.02 2.85.36 5.8.88 8.08l.11.44H18c2.4 0 4.6-1.78 6.7-5.27 1.47-2.44 2.6-5.48 3.11-8.5A3.93 3.93 0 0 0 26 3l-.3.01c-.78.09-1.49.46-2.04 1.04l-.17.21-.15.27A9.51 9.51 0 0 1 23 11.5zM6.5 23a2.5 2.5 0 1 0 0 5H18c2.3 0 4.37-1.66 6.27-4.78l.3-.53.12-.2-.14.02c-1.07.16-2.17.3-3.3.38l-1.14.06-.72.02H6.5z"/>
+                            </svg>
+                            <span>Cocina</span>
+                        </div>
+                        <div class="amenity">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M16 20.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7zM16 1c3.524 0 6.433 2.674 6.93 6.076l.02.168.006.104L23 7.5V11h2a1 1 0 0 1 .993.883L26 12v18a1 1 0 0 1-.883.993L25 31H7a1 1 0 0 1-.993-.883L6 30V12a1 1 0 0 1 .883-.993L7 11h2V7.5l.003-.166C9.2 3.871 12.266 1 16 1zm0 21.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM24 13H8v16h16V13zM16 3c-2.608 0-4.834 2.016-4.98 4.606L11 7.82V11h10V7.5c0-2.608-2.176-4.5-5-4.5z"/>
+                            </svg>
+                            <span>Wifi</span>
+                        </div>
+                        <div class="amenity">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M26 2a1 1 0 0 1 .993.883L27 3v26a1 1 0 0 1-.883.993L26 30H6a1 1 0 0 1-.993-.883L5 29V3a1 1 0 0 1 .883-.993L6 2h20zm-1 2H7v24h18V4zm-7 11a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                            </svg>
+                            <span>Zona para trabajar</span>
+                        </div>
+                        <div class="amenity">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M9 29v-2h2v-2H6a5 5 0 0 1-4.98-4.56L1 20V8a5 5 0 0 1 4.56-4.98L6 3h20a5 5 0 0 1 4.98 4.56L31 8v12a5 5 0 0 1-4.56 4.98L26 25h-5v2h2v2H9zm17-6a3 3 0 0 0 2.96-2.56L29 20V8a3 3 0 0 0-2.56-2.96L26 5H6a3 3 0 0 0-2.96 2.56L3 8v12a3 3 0 0 0 2.56 2.96L6 23h20zm-8 2h-4v2h4v-2z"/>
+                            </svg>
+                            <span>TV</span>
+                        </div>
+                        <div class="amenity">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M3 30V4h26v26H3zm2-2h22V6H5v22zm3-3v-7h14v7H8zm2-5v3h10v-3H10z"/>
+                            </svg>
+                            <span>Ascensor</span>
+                        </div>
+                        <div class="amenity">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M16 2a14 14 0 1 1 0 28 14 14 0 0 1 0-28zm0 2a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm-1 3v9.59l6.71 6.7-1.42 1.42L13 17.41V7h2z"/>
+                            </svg>
+                            <span>Llegada autónoma</span>
+                        </div>
+                        <div class="amenity">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M16 2c7.18 0 13 5.82 13 13a12.93 12.93 0 0 1-4.2 9.59l-.25.24-7.55 5.2L9.45 24.83A12.93 12.93 0 0 1 3 15C3 7.82 8.82 2 16 2zm0 2C9.92 4 5 8.92 5 15c0 3.42 1.56 6.47 4.02 8.49l.2.16L16 28.2l6.78-4.55.2-.16A10.96 10.96 0 0 0 27 15c0-6.08-4.92-11-11-11zm0 5a3 3 0 0 1 3 3 3 3 0 0 1-.47 1.6l-.1.14 2.78 6.4a.75.75 0 0 1-.42 1L16 23l-4.79-1.86a.75.75 0 0 1-.42-1l2.78-6.4A3 3 0 0 1 16 9zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                            </svg>
+                            <span>Calefacción</span>
+                        </div>
+                        <div class="amenity">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M17 1v4.03l4.03-2.2 1 1.74L17 7.57v5.18l4.49-2.6.45-4.68 1.99.19-.34 3.56 3.56-.34.19 2-4.68.44-2.6 4.49h5.18l3-5.03 1.74 1-2.2 4.03H31v2h-4.22l2.2 4.03-1.74 1-3-5.03h-5.18l2.6 4.49 4.68.45-.19 1.99-3.56-.34.34 3.56-2 .19-.44-4.68L16 20.25v5.18l5.03 3 -1 1.74L16 28.03V31h-2v-2.97l-4.03 2.14-1-1.74L14 25.43v-5.18l-4.49 2.6-.45 4.68-1.99-.19.34-3.56-3.56.34-.19-2 4.68-.44 2.6-4.49H5.76l-3 5.03-1.74-1 2.2-4.03H1v-2h3.22L1.98 11.22l1.74-1 3 5.03h5.18l-2.6-4.49-4.68-.45.19-1.99 3.56.34-.34-3.56 2-.19.44 4.68 4.49-2.6V1.81L9.93 4.81l1-1.74L15 5.21V1h2z"/>
+                            </svg>
+                            <span>Aire acondicionado</span>
+                        </div>
+                        <div class="amenity">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M26 29h-4v-2h4a1 1 0 0 0 1-.88V19h-2.27L22 13.56V7a5 5 0 0 0-4.78-5H14.5A5 5 0 0 0 10 6.83V13.6L7.27 19H5v7.12A1 1 0 0 0 5.88 27H10v2H6a3 3 0 0 1-3-2.88V18h3.73L9 12.44V7a7 7 0 0 1 6.78-7h2.44A7 7 0 0 1 25 6.78v5.66L27.27 18H31v8a3 3 0 0 1-2.88 3H26zm-10-3a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                            </svg>
+                            <span>Lavadora</span>
+                        </div>
+                        <div class="amenity">
+                            <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                                <path d="M16 1a15 15 0 1 1 0 30 15 15 0 0 1 0-30zm0 2a13 13 0 1 0 0 26 13 13 0 0 0 0-26zm-4.9 14.5l1.8-1 3.1 5.37 3.1-5.37 1.8 1L16 26l-4.9-8.5zM16 6a5 5 0 0 1 5 5v1h-2v-1a3 3 0 0 0-6 0v1h-2v-1a5 5 0 0 1 5-5z"/>
+                            </svg>
+                            <span>Terraza de 40 m²</span>
+                        </div>
+                    </div>
+                    <button class="show-amenities-btn">Mostrar los 30+ servicios</button>
+                </div>
+            </div>
+
+            <!-- Sidebar / Booking Card -->
+            <aside class="booking-card">
+                <div class="booking-card-inner">
+                    <div class="price-row">
+                        <div class="price">
+                            <span class="price-amount">Añadir fechas para ver precios</span>
+                        </div>
+                        <div class="rating-mini">
+                            <svg viewBox="0 0 32 32" width="12" height="12" fill="currentColor">
+                                <path d="M15.094 1.579l-4.124 8.885-9.86 1.27a1 1 0 0 0-.542 1.736l7.293 6.565-1.965 9.852a1 1 0 0 0 1.483 1.061L16 25.951l8.625 4.997a1 1 0 0 0 1.482-1.06l-1.965-9.853 7.293-6.565a1 1 0 0 0-.541-1.735l-9.86-1.271-4.127-8.885a1 1 0 0 0-1.814 0z"/>
+                            </svg>
+                            <span>4,8 · <a href="#reviews">20 evaluaciones</a></span>
+                        </div>
+                    </div>
+
+                    <div class="booking-form">
+                        <div class="date-inputs">
+                            <div class="date-input">
+                                <label>LLEGADA</label>
+                                <input type="text" value="15/06/2026" readonly>
+                            </div>
+                            <div class="date-input">
+                                <label>SALIDA</label>
+                                <input type="text" value="17/06/2026" readonly>
+                            </div>
+                        </div>
+                        <div class="guest-input">
+                            <label>VIAJEROS</label>
+                            <select>
+                                <option>2 viajeros</option>
+                                <option>3 viajeros</option>
+                                <option>4 viajeros</option>
+                                <option>5 viajeros</option>
+                                <option>6 viajeros</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button class="reserve-btn">Reservar</button>
+                    <p class="no-charge">No se te cobrará todavía</p>
+                </div>
+            </aside>
+        </section>
+
+        <div class="divider full-width"></div>
+
+        <!-- Reviews Section -->
+        <section class="reviews-section" id="reviews">
+            <div class="reviews-header">
+                <div class="overall-rating">
+                    <svg viewBox="0 0 32 32" width="16" height="16" fill="currentColor">
+                        <path d="M15.094 1.579l-4.124 8.885-9.86 1.27a1 1 0 0 0-.542 1.736l7.293 6.565-1.965 9.852a1 1 0 0 0 1.483 1.061L16 25.951l8.625 4.997a1 1 0 0 0 1.482-1.06l-1.965-9.853 7.293-6.565a1 1 0 0 0-.541-1.735l-9.86-1.271-4.127-8.885a1 1 0 0 0-1.814 0z"/>
+                    </svg>
+                    <span class="rating-value">4,8</span>
+                    <span class="rating-separator">·</span>
+                    <span class="review-count">20 evaluaciones</span>
+                </div>
+            </div>
+
+            <div class="rating-categories">
+                <div class="rating-category">
+                    <span>Limpieza</span>
+                    <div class="rating-bar-container">
+                        <div class="rating-bar">
+                            <div class="rating-bar-fill" style="width: 94%"></div>
+                        </div>
+                        <span class="rating-number">4,7</span>
+                    </div>
+                </div>
+                <div class="rating-category">
+                    <span>Veracidad</span>
+                    <div class="rating-bar-container">
+                        <div class="rating-bar">
+                            <div class="rating-bar-fill" style="width: 98%"></div>
+                        </div>
+                        <span class="rating-number">4,9</span>
+                    </div>
+                </div>
+                <div class="rating-category">
+                    <span>Llegada</span>
+                    <div class="rating-bar-container">
+                        <div class="rating-bar">
+                            <div class="rating-bar-fill" style="width: 96%"></div>
+                        </div>
+                        <span class="rating-number">4,8</span>
+                    </div>
+                </div>
+                <div class="rating-category">
+                    <span>Comunicación</span>
+                    <div class="rating-bar-container">
+                        <div class="rating-bar">
+                            <div class="rating-bar-fill" style="width: 100%"></div>
+                        </div>
+                        <span class="rating-number">5,0</span>
+                    </div>
+                </div>
+                <div class="rating-category">
+                    <span>Ubicación</span>
+                    <div class="rating-bar-container">
+                        <div class="rating-bar">
+                            <div class="rating-bar-fill" style="width: 94%"></div>
+                        </div>
+                        <span class="rating-number">4,7</span>
+                    </div>
+                </div>
+                <div class="rating-category">
+                    <span>Calidad</span>
+                    <div class="rating-bar-container">
+                        <div class="rating-bar">
+                            <div class="rating-bar-fill" style="width: 92%"></div>
+                        </div>
+                        <span class="rating-number">4,6</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Star Distribution -->
+            <div class="star-distribution">
+                <div class="star-row">
+                    <span>5 estrellas</span>
+                    <div class="dist-bar"><div class="dist-bar-fill" style="width: 90%"></div></div>
+                    <span class="dist-pct">90%</span>
+                </div>
+                <div class="star-row">
+                    <span>4 estrellas</span>
+                    <div class="dist-bar"><div class="dist-bar-fill" style="width: 5%"></div></div>
+                    <span class="dist-pct">5%</span>
+                </div>
+                <div class="star-row">
+                    <span>3 estrellas</span>
+                    <div class="dist-bar"><div class="dist-bar-fill" style="width: 0%"></div></div>
+                    <span class="dist-pct">0%</span>
+                </div>
+                <div class="star-row">
+                    <span>2 estrellas</span>
+                    <div class="dist-bar"><div class="dist-bar-fill" style="width: 5%"></div></div>
+                    <span class="dist-pct">5%</span>
+                </div>
+                <div class="star-row">
+                    <span>1 estrella</span>
+                    <div class="dist-bar"><div class="dist-bar-fill" style="width: 0%"></div></div>
+                    <span class="dist-pct">0%</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider full-width"></div>
+
+        <!-- House Rules -->
+        <section class="house-rules">
+            <h2>Normas de la casa</h2>
+            <p class="rules-subtitle">Llegada a partir de las 15:00 · Salida antes de las 11:00</p>
+            <div class="rules-list">
+                <div class="rule-item">
+                    <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                        <path d="M16 2a14 14 0 1 1 0 28 14 14 0 0 1 0-28zm0 2a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm-1 3v9.59l6.71 6.7-1.42 1.42L13 17.41V7h2z"/>
+                    </svg>
+                    <span>Llegada: de 15:00 a 22:00</span>
+                </div>
+                <div class="rule-item">
+                    <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                        <path d="M16 2a14 14 0 1 1 0 28 14 14 0 0 1 0-28zm0 2a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm-1 3v9.59l6.71 6.7-1.42 1.42L13 17.41V7h2z"/>
+                    </svg>
+                    <span>Salida: antes de las 11:00</span>
+                </div>
+                <div class="rule-item">
+                    <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                        <path d="M16 17a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-2a5 5 0 1 0 0-10 5 5 0 0 0 0 10zM3.59 29a1 1 0 0 1-.97-1.23 13.44 13.44 0 0 1 26.76 0 1 1 0 0 1-.97 1.23H3.59z"/>
+                    </svg>
+                    <span>6 viajeros como máximo</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider full-width"></div>
+
+        <!-- Safety Section -->
+        <section class="safety-section">
+            <h2>Seguridad y propiedad</h2>
+            <div class="safety-list">
+                <div class="safety-item">
+                    <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                        <path d="M16 2a14 14 0 1 1 0 28 14 14 0 0 1 0-28zm0 2a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm1 5v9h6v2h-8V9h2z"/>
+                    </svg>
+                    <span>Detector de monóxido de carbono</span>
+                </div>
+                <div class="safety-item">
+                    <svg viewBox="0 0 32 32" width="24" height="24" fill="currentColor">
+                        <path d="M16 2a14 14 0 1 1 0 28 14 14 0 0 1 0-28zm0 2a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm1 5v9h6v2h-8V9h2z"/>
+                    </svg>
+                    <span>Detector de humo</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider full-width"></div>
+
+        <!-- Registration -->
+        <section class="registration-section">
+            <h2>Número de registro</h2>
+            <p class="reg-number">Registro nacional: ESFCTU00002812100026271000000000000000000000VT-145674</p>
+            <p class="reg-number">Registro autonómico Madrid: VT-14567</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>&copy; 2026 Airbnb, Inc. · <a href="#">Privacidad</a> · <a href="#">Condiciones</a> · <a href="#">Mapa del sitio</a></p>
+        </div>
+    </footer>
+</body>
+</html>
