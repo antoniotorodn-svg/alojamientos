@@ -62,72 +62,34 @@ button {
     justify-content: space-between;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 22px;
+.navbar-title {
+    font-size: 18px;
     font-weight: 700;
-    color: #FF385C;
-    letter-spacing: -0.5px;
+    color: #222;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-.nav-actions {
+.navbar-phone {
     display: flex;
     align-items: center;
     gap: 8px;
-}
-
-.nav-link {
-    font-size: 14px;
-    font-weight: 500;
-    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+    padding: 8px 16px;
     border-radius: 22px;
-    transition: background 0.2s;
-}
-
-.nav-link:hover {
-    background: #f7f7f7;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.2s, background 0.2s;
+    white-space: nowrap;
     text-decoration: none;
 }
 
-.globe-btn {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: background 0.2s;
-}
-
-.globe-btn:hover {
-    background: #f7f7f7;
-}
-
-.user-menu {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 6px 6px 6px 12px;
-    border: 1px solid #ddd;
-    border-radius: 22px;
-    transition: box-shadow 0.2s;
-}
-
-.user-menu:hover {
+.navbar-phone:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
-}
-
-.avatar-placeholder {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: #717171;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+    background: #f7f7f7;
+    text-decoration: none;
 }
 
 /* ========== LISTING PAGE ========== */
@@ -690,8 +652,17 @@ button {
         padding: 0 16px;
     }
 
-    .nav-link {
+    .navbar-title {
+        font-size: 14px;
+    }
+
+    .navbar-phone span {
         display: none;
+    }
+
+    .navbar-phone {
+        padding: 8px;
+        border-radius: 50%;
     }
 
     .listing-page {
